@@ -323,3 +323,8 @@ bakery-management-analysis/
 This project demonstrates an end-to-end approach to building a relational database and business intelligence solution, combining database design, Python-based data integration, SQL analysis and Power BI reporting.
 
 It showcases practical experience in structuring operational data, automating data-loading processes, validating records, analysing business performance and presenting findings through interactive reports.
+
+
+## Connect
+
+[GitHub](https://github.com/seriki-o) · [LinkedIn](https://www.linkedin.com/in/oreoluwa-seriki-51a30424a/)
