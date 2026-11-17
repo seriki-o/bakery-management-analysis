@@ -1,0 +1,66 @@
+﻿expense_id,category,description,date,amount,employee_id
+51,Cleaning,Cleaning supplies not tracked as ingredients,2026-01-02,8215.67,1120
+10,Utilities,Generator fuel and utility costs,2026-01-06,28361.74,1000
+54,Cleaning,Cleaning service,2026-01-07,8265.07,1110
+7,Utilities,Generator fuel and utility costs,2026-01-11,39025.25,1130
+15,Internet and Phone,Business phone and data,2026-01-11,14284.97,1130
+34,Staff Welfare,Staff refreshments,2026-01-14,23807.28,1000
+32,Staff Welfare,Staff refreshments,2026-01-18,9294.91,1130
+29,Licences and Fees,Business permit or administrative fee,2026-01-20,26984.33,1000
+56,Waste Disposal,Disposal of non-inventory waste,2026-01-22,6359.86,1120
+28,Licences and Fees,Business permit or administrative fee,2026-01-28,28547.89,1130
+60,Minor Operating Supplies,Small operational supplies,2026-01-29,5818.69,1120
+47,Transport,Transport for operational errands,2026-02-04,10078.60,1110
+17,Internet and Phone,Business phone and data,2026-02-07,10627.98,1130
+44,Transport,Local delivery and supplier transport,2026-02-09,11803.25,1120
+23,Marketing,Social media promotion,2026-02-11,16104.84,1000
+33,Staff Welfare,Staff refreshments,2026-02-16,6679.05,1130
+41,Bank and Payment Charges,Bank transaction charges,2026-02-19,11725.05,1130
+53,Cleaning,Cleaning service,2026-02-26,5105.41,1120
+11,Utilities,Generator fuel and utility costs,2026-02-28,25177.72,1000
+1,Rent,Monthly shop rent,2026-03-01,237886.04,1130
+2,Rent,Bakery premises rent,2026-03-01,162289.36,1000
+3,Rent,Bakery premises rent,2026-03-01,194638.57,1130
+63,Minor Operating Supplies,Small operational supplies,2026-03-01,3798.05,1110
+61,Minor Operating Supplies,Minor shop supplies outside tracked stock,2026-03-07,8237.14,1120
+25,Equipment Maintenance,Minor equipment repair,2026-03-08,40666.01,1130
+30,Staff Welfare,Staff refreshments,2026-03-13,23206.18,1130
+20,Marketing,Printed promotional materials,2026-03-17,5661.55,1000
+42,Transport,Transport for operational errands,2026-03-19,10062.88,1110
+49,Transport,Transport for operational errands,2026-03-19,9819.72,1120
+43,Transport,Local delivery and supplier transport,2026-03-23,10589.32,1120
+5,Rent,Bakery premises rent,2026-04-01,174784.82,1000
+59,Waste Disposal,Disposal of non-inventory waste,2026-04-09,4687.43,1120
+50,Cleaning,Cleaning supplies not tracked as ingredients,2026-04-11,3643.86,1110
+40,Bank and Payment Charges,Bank transaction charges,2026-04-12,6161.36,1130
+24,Equipment Maintenance,Oven servicing,2026-04-18,24371.23,1000
+55,Cleaning,Cleaning supplies not tracked as ingredients,2026-04-20,6700.62,1110
+58,Waste Disposal,Waste collection service,2026-04-26,2535.25,1110
+21,Marketing,Printed promotional materials,2026-04-27,32918.80,1000
+46,Transport,Local delivery and supplier transport,2026-04-27,13304.68,1110
+22,Marketing,Printed promotional materials,2026-04-29,7326.60,1000
+4,Rent,Bakery premises rent,2026-05-01,200325.24,1000
+6,Rent,Bakery premises rent,2026-05-01,200791.87,1130
+52,Cleaning,Cleaning service,2026-05-07,4434.17,1120
+16,Internet and Phone,Business phone and data,2026-05-11,13281.44,1000
+18,Internet and Phone,Business internet subscription,2026-05-13,15645.41,1130
+37,Bank and Payment Charges,Payment processing fees,2026-05-14,10572.68,1130
+48,Transport,Transport for operational errands,2026-05-15,9129.93,1120
+9,Utilities,Generator fuel and utility costs,2026-05-16,45547.54,1130
+36,Bank and Payment Charges,Payment processing fees,2026-05-19,3575.20,1130
+13,Internet and Phone,Business internet subscription,2026-05-21,10550.91,1000
+26,Equipment Maintenance,Oven servicing,2026-05-25,6305.72,1130
+27,Equipment Maintenance,Minor equipment repair,2026-05-25,36040.68,1130
+62,Minor Operating Supplies,Minor shop supplies outside tracked stock,2026-05-30,7053.71,1110
+45,Transport,Transport for operational errands,2026-05-31,12778.13,1120
+12,Utilities,Electricity and water bill,2026-06-04,40367.07,1000
+57,Waste Disposal,Disposal of non-inventory waste,2026-06-16,2173.85,1120
+64,Minor Operating Supplies,Minor shop supplies outside tracked stock,2026-06-16,9359.12,1120
+14,Internet and Phone,Business phone and data,2026-06-17,9903.20,1130
+8,Utilities,Generator fuel and utility costs,2026-06-24,23660.33,1000
+35,Staff Welfare,Staff welfare supplies,2026-06-24,9301.84,1000
+39,Bank and Payment Charges,Payment processing fees,2026-06-24,5469.88,1000
+19,Marketing,Social media promotion,2026-06-26,10723.52,1130
+38,Bank and Payment Charges,Payment processing fees,2026-06-26,7900.44,1000
+65,Minor Operating Supplies,Small operational supplies,2026-06-26,3471.42,1120
+31,Staff Welfare,Staff refreshments,2026-06-28,21749.55,1000

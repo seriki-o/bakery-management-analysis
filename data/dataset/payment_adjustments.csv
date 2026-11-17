@@ -1,0 +1,59 @@
+﻿adjustment_id,payment_id,approved_by,amount,adjustment_type,adjustment_date,reason
+1,339,1000,64.51,REFUND,2026-01-16 11:57:47,Order correction approved by management
+2,2753,1130,638.00,REFUND,2026-04-28 17:48:23,Customer reported a product quality issue
+3,196,1000,321.96,REFUND,2026-01-16 14:38:33,Order correction approved by management
+4,1283,1000,789.31,REFUND,2026-02-24 16:52:49,Order correction approved by management
+5,1168,1000,1605.29,REFUND,2026-02-21 13:51:28,Partial refund for a damaged item
+6,3716,1130,821.44,REFUND,2026-06-19 16:20:31,Order correction approved by management
+7,1318,1130,87.98,REFUND,2026-02-26 17:59:31,Partial refund for an incorrect item
+8,3,1000,1450.36,REFUND,2026-01-02 17:11:00,Order correction approved by management
+9,3588,1000,240.74,REFUND,2026-06-05 16:30:34,Order correction approved by management
+10,2763,1000,807.93,REFUND,2026-04-30 12:00:06,Customer reported a product quality issue
+11,856,1000,440.43,REFUND,2026-02-14 13:52:33,Partial refund for a damaged item
+12,561,1000,162.22,REFUND,2026-02-01 10:24:43,Customer reported a product quality issue
+13,2469,1000,796.23,REFUND,2026-04-17 10:35:08,Customer reported a product quality issue
+14,2084,1130,553.75,REFUND,2026-04-01 17:10:38,Partial refund for a damaged item
+15,1104,1130,213.11,REFUND,2026-02-23 16:21:23,Partial refund for a damaged item
+16,3001,1130,726.60,REFUND,2026-05-10 11:07:54,Customer reported a product quality issue
+17,2127,1130,203.30,REFUND,2026-04-09 15:06:22,Customer reported a product quality issue
+18,1174,1000,231.09,REFUND,2026-02-24 12:38:58,Order correction approved by management
+19,3834,1130,141.97,REFUND,2026-06-19 14:36:31,Order correction approved by management
+20,659,1000,221.19,REFUND,2026-02-05 16:34:14,Order correction approved by management
+21,701,1130,988.43,REFUND,2026-02-03 11:57:00,Partial refund for a damaged item
+22,3937,1000,1703.88,REFUND,2026-06-30 16:39:50,Order correction approved by management
+23,2883,1130,647.75,REFUND,2026-05-11 16:08:53,Order correction approved by management
+24,562,1130,37.25,REFUND,2026-02-01 11:04:21,Order correction approved by management
+25,447,1000,23.51,REFUND,2026-01-18 17:08:30,Partial refund for a damaged item
+26,3744,1130,427.81,REFUND,2026-06-17 17:21:23,Order correction approved by management
+27,1801,1000,985.60,REFUND,2026-03-27 17:06:06,Customer reported a product quality issue
+28,3683,1000,835.11,REFUND,2026-06-13 17:35:33,Partial refund for an incorrect item
+29,1347,1130,1824.77,REFUND,2026-03-04 12:12:16,Partial refund for a damaged item
+30,1925,1000,1987.53,REFUND,2026-03-25 10:20:42,Partial refund for a damaged item
+31,606,1130,122.57,REFUND,2026-02-01 13:12:33,Order correction approved by management
+32,2000,1000,1173.05,REFUND,2026-03-31 14:07:53,Order correction approved by management
+33,140,1130,147.55,REFUND,2026-01-13 09:54:19,Partial refund for an incorrect item
+34,731,1000,445.83,REFUND,2026-02-10 12:14:16,Partial refund for an incorrect item
+35,470,1130,150.80,REFUND,2026-01-24 16:00:12,Partial refund for a damaged item
+36,2465,1130,308.02,REFUND,2026-04-26 12:26:24,Order correction approved by management
+37,2075,1000,883.34,REFUND,2026-04-03 14:29:57,Partial refund for an incorrect item
+38,1352,1000,1450.23,REFUND,2026-02-28 16:15:49,Partial refund for an incorrect item
+39,2316,1000,225.21,REFUND,2026-04-18 12:08:11,Partial refund for a damaged item
+40,499,1000,77.70,REFUND,2026-01-26 12:13:41,Order correction approved by management
+41,517,1130,487.15,REFUND,2026-01-30 11:00:50,Order correction approved by management
+42,1568,1000,1435.30,REFUND,2026-03-13 17:20:52,Order correction approved by management
+43,3060,1130,560.14,REFUND,2026-05-17 11:52:19,Partial refund for a damaged item
+44,976,1130,94.55,REFUND,2026-02-13 12:23:16,Partial refund for an incorrect item
+45,526,1000,117.54,REFUND,2026-01-23 15:13:06,Partial refund for a damaged item
+46,2682,1130,353.31,REFUND,2026-04-28 16:03:09,Order correction approved by management
+47,212,1130,721.32,REFUND,2026-01-14 14:18:32,Partial refund for a damaged item
+48,353,1000,1060.37,REFUND,2026-01-21 10:12:06,Order correction approved by management
+49,1166,1000,394.41,REFUND,2026-03-01 17:55:39,Partial refund for an incorrect item
+50,1491,1130,642.12,REFUND,2026-03-15 09:42:29,Partial refund for an incorrect item
+51,243,1130,1658.33,REFUND,2026-01-17 10:02:31,Partial refund for an incorrect item
+52,3748,1000,596.72,REFUND,2026-06-21 13:51:05,Partial refund for a damaged item
+53,1169,1000,1253.65,REFUND,2026-02-28 15:49:16,Customer reported a product quality issue
+54,2335,1000,483.75,REFUND,2026-04-15 13:36:25,Order correction approved by management
+55,2104,1130,374.04,REFUND,2026-04-03 10:33:51,Order correction approved by management
+56,3761,1000,233.25,REFUND,2026-06-19 14:16:35,Partial refund for an incorrect item
+57,3715,1000,116.84,REFUND,2026-06-13 09:13:33,Customer reported a product quality issue
+58,1833,1130,1202.00,REFUND,2026-03-21 16:44:22,Partial refund for a damaged item

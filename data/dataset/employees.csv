@@ -1,0 +1,15 @@
+﻿employee_id,full_name,username,password_hash,is_active,role_id
+1000,Amara Okafor,amaraokafor,SYNTHETIC_NO_LOGIN,True,1
+1010,Chinedu Eze,chinedueze,SYNTHETIC_NO_LOGIN,True,2
+1020,Tomi Adeyemi,tomiadeyemi,SYNTHETIC_NO_LOGIN,True,2
+1030,Ifeoma Nwosu,ifeomanwosu,SYNTHETIC_NO_LOGIN,True,2
+1040,Kelechi Obi,kelechiobi,SYNTHETIC_NO_LOGIN,True,3
+1050,Azeezat Idris,azeezatidris,SYNTHETIC_NO_LOGIN,True,3
+1060,Hannah Balogun,hannahbalogun,SYNTHETIC_NO_LOGIN,True,3
+1070,Zainab Bello,zainabbello,SYNTHETIC_NO_LOGIN,True,3
+1080,David Adebayo,davidadebayo,SYNTHETIC_NO_LOGIN,True,3
+1090,Mariam Yusuf,mariamyusuf,SYNTHETIC_NO_LOGIN,True,4
+1100,Tunde Balogun,tundebalogun,SYNTHETIC_NO_LOGIN,True,4
+1110,Ngozi Ekwueme,ngoziekwueme,SYNTHETIC_NO_LOGIN,True,5
+1120,Samuel Oladipo,samueloladipo,SYNTHETIC_NO_LOGIN,True,5
+1130,Adaeze Nnamdi,adaezennamdi,SYNTHETIC_NO_LOGIN,True,1

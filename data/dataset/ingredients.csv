@@ -1,0 +1,38 @@
+﻿ingredient_id,ingredient_name,unit_of_measure,is_active
+1,All-purpose Flour,g,True
+2,Granulated Sugar,g,True
+3,Brown Sugar,g,True
+4,Ripe Bananas,g,True
+5,Eggs,each,True
+6,Unsalted Butter,g,True
+7,Vegetable Oil,ml,True
+8,Vanilla Extract,ml,True
+9,Baking Soda,g,True
+10,Baking Powder,g,True
+11,Salt,g,True
+12,Cinnamon,g,True
+13,Cocoa Powder,g,True
+14,Dark Chocolate,g,True
+15,Chocolate Chips,g,True
+16,White Chocolate,g,True
+17,Desiccated Coconut,g,True
+18,Raisins,g,True
+19,Carrots,g,True
+20,Walnuts,g,True
+21,Cashews,g,True
+22,Almonds,g,True
+23,Peanuts,g,True
+24,Peanut Butter,g,True
+25,Red Velvet Food Colouring,ml,True
+26,Milk,ml,True
+27,Lemon Juice or Vinegar,ml,True
+28,Tigernuts,g,True
+29,Dates,g,True
+30,Fresh Ginger,g,True
+31,Water,ml,True
+32,Loaf Packaging,each,True
+33,Drink Bottle - 30 cl,each,True
+34,Drink Bottle - 50 cl,each,True
+35,Packaging Label,each,True
+36,Coconut,g,True
+37,Cloves,g,True

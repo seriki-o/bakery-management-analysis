@@ -1,0 +1,42 @@
+﻿product_id,product_name,product_size,selling_price,is_active
+1,Classic Banana Bread,Mini,1500,True
+2,Classic Banana Bread,Midi,3000,True
+3,Classic Banana Bread,Regular,5500,True
+4,Chocolate Banana Bread,Mini,1800,True
+5,Chocolate Banana Bread,Midi,3300,True
+6,Chocolate Banana Bread,Regular,5800,True
+7,Marble Banana Bread,Mini,1800,True
+8,Marble Banana Bread,Midi,3300,True
+9,Marble Banana Bread,Regular,5800,True
+10,Red Velvet Banana Bread,Mini,2000,True
+11,Red Velvet Banana Bread,Midi,3500,True
+12,Red Velvet Banana Bread,Regular,6000,True
+13,Chocolate and Coconut Banana Bread,Mini,1900,True
+14,Chocolate and Coconut Banana Bread,Midi,3400,True
+15,Chocolate and Coconut Banana Bread,Regular,5900,True
+16,Chocolate Chip Banana Bread,Mini,1900,True
+17,Chocolate Chip Banana Bread,Midi,3400,True
+18,Chocolate Chip Banana Bread,Regular,5900,True
+19,White Chocolate Banana Bread,Mini,2200,True
+20,White Chocolate Banana Bread,Midi,3700,True
+21,White Chocolate Banana Bread,Regular,6200,True
+22,Chocolate Chunk Banana Bread,Mini,2100,True
+23,Chocolate Chunk Banana Bread,Midi,3600,True
+24,Chocolate Chunk Banana Bread,Regular,6100,True
+25,Raisin Banana Bread,Mini,1700,True
+26,Raisin Banana Bread,Midi,3200,True
+27,Raisin Banana Bread,Regular,5700,True
+28,Coconut Banana Bread,Mini,1700,True
+29,Coconut Banana Bread,Midi,3200,True
+30,Coconut Banana Bread,Regular,5700,True
+31,Carrot Banana Bread,Mini,1800,True
+32,Carrot Banana Bread,Midi,3300,True
+33,Carrot Banana Bread,Regular,5800,True
+34,Nut Mix Banana Bread,Mini,2200,True
+35,Nut Mix Banana Bread,Midi,3700,True
+36,Nut Mix Banana Bread,Regular,6200,True
+37,Peanut Butter Banana Bread,Mini,2000,True
+38,Peanut Butter Banana Bread,Midi,3500,True
+39,Peanut Butter Banana Bread,Regular,6000,True
+40,Tigernut Drink,30 cl,1500,True
+41,Tigernut Drink,50 cl,2500,True

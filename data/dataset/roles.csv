@@ -1,0 +1,6 @@
+﻿role_id,role_name,description
+1,Manager,Oversees operations and approves adjustments.
+2,Cashier,Records walk-in sales and payments.
+3,Baker,Records production and ingredient consumption.
+4,Online Order Handler,Records and manages online orders.
+5,Inventory Assistant,Records purchases and inventory movements.
