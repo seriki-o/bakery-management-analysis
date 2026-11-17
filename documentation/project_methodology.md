@@ -87,12 +87,6 @@ An Entity Relationship Diagram (ERD) was developed in Draw.io to represent the d
 
 ### 3.2 Entity Relationship Diagram
 
-**Screenshot 1 — Complete Entity Relationship Diagram**
-
-Insert the ERD image here:
-
-`documentation/data_model/entity_relationship_diagram.png`
-
 ![Entity Relationship Diagram](data_model/entity_relationship_diagram.png)
 
 *Figure 1: Entity Relationship Diagram illustrating the 17 database tables and their relationships.*
@@ -119,13 +113,7 @@ These identifiers provide more meaningful references for operational records and
 
 ### 4.1 Database Implementation Evidence
 
-**Screenshot 2 — SQL Server Database Structure**
-
-Insert a screenshot showing the `bakery_management` database and its tables in SQL Server Management Studio.
-
-Suggested filename:
-
-`documentation/screenshots/database_structure.png`
+<img width="261" height="404" alt="Screenshot 2026-11-17 023739" src="https://github.com/user-attachments/assets/de128b11-06e7-4023-b3e0-f425b101db3b" />
 
 *Figure 2: Database implementation in SQL Server, showing the created database and its operational tables.*
 
@@ -157,13 +145,7 @@ The datasets cover:
 
 ### 5.2 Dataset Evidence
 
-**Screenshot 3 — CSV Dataset Preview (Optional)**
-
-Insert a screenshot showing a representative CSV file opened in Excel or another spreadsheet application.
-
-Suggested filename:
-
-`documentation/screenshots/dataset_preview.png`
+<img width="692" height="505" alt="Screenshot 2026-11-17 024101" src="https://github.com/user-attachments/assets/d01d11ef-e81f-4462-b54a-d1dfdc23cdea" />
 
 *Figure 3: Sample synthetic dataset prepared for integration into the SQL Server database.*
 
@@ -215,31 +197,6 @@ Additional Python utilities were developed to support the loading workflow:
 | `inspect_database.py` | Retrieves and displays database table and column information. |
 | `check_csv_columns.py` | Compares CSV column names against corresponding database table structures. |
 
-### 6.4 Data Loading Evidence
-
-**Screenshot 4 — Initial Data Loading Execution**
-
-Insert a screenshot showing the initial loading script executing successfully, preferably with its console output showing the tables loaded.
-
-Suggested filename:
-
-`documentation/screenshots/initial_data_loading.png`
-
-*Figure 4: Execution of the Python initial loading script for importing CSV records into SQL Server.*
-
-**Screenshot 5 — Incremental Data Loading Execution**
-
-Insert a screenshot showing the incremental loader identifying existing records and skipping duplicates, or inserting new records.
-
-Suggested filename:
-
-`documentation/screenshots/incremental_data_loading.png`
-
-*Figure 5: Incremental data loading process, demonstrating how existing records are handled during subsequent imports.*
-
-The Python scripts are available in the [`python`](../python/) directory.
-
----
 
 ## 7. Data Validation and Database Testing
 
@@ -253,13 +210,7 @@ Separate scripts were organised for data validation and database testing.
 
 ### 7.1 Validation Evidence
 
-**Screenshot 6 — SQL Data Validation Results**
-
-Insert a screenshot showing an actual validation query and its results in SQL Server Management Studio.
-
-Suggested filename:
-
-`documentation/screenshots/validation_results.png`
+<img width="1085" height="556" alt="Screenshot 2026-11-17 025132" src="https://github.com/user-attachments/assets/02192aea-5826-4f0d-8e9a-ef76e678221f" />
 
 *Figure 6: SQL validation checks performed on the populated bakery management database.*
 
