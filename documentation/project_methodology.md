@@ -208,7 +208,7 @@ The scripts cover checks on loaded records and database structure, including rel
 
 Separate scripts were organised for data validation and database testing.
 
-### 7.1 Validation Evidence
+### Validation Evidence
 
 <img width="1085" height="556" alt="Screenshot 2026-11-17 025132" src="https://github.com/user-attachments/assets/02192aea-5826-4f0d-8e9a-ef76e678221f" />
 
@@ -216,7 +216,6 @@ Separate scripts were organised for data validation and database testing.
 
 The validation and testing scripts are available in [`database/validation`](../database/validation/).
 
----
 
 ## 8. SQL-Based Business Analysis
 
@@ -237,4 +236,229 @@ This analysis examined sales activity and revenue patterns, including:
 
 This analysis examined product sales, quantities sold and product-level performance.
 
-Where cost information was available, product costs and estimated profitability were
+Where cost information was available, product costs and estimated profitability were also investigated, with consideration given to the limitations of the available cost records.
+
+### 8.3 Inventory and Procurement Analysis
+
+This analysis examined:
+
+- Ingredient usage.
+- Inventory movements.
+- Purchasing activity.
+- Procurement expenditure.
+- Changes in ingredient purchase prices over the reporting period.
+
+### 8.4 Production and Fulfilment Efficiency
+
+This analysis examined production activity across batch and made-to-order operations.
+
+It included:
+
+- Production quantities.
+- Accepted output.
+- Recorded production waste.
+- Product-level waste rates.
+
+### 8.5 SQL Analysis Evidence
+
+**Screenshot 7 — SQL Business Analysis Query and Results**
+
+Insert a representative screenshot showing one of your business analysis queries alongside its result set.
+
+Suggested filename:
+
+`documentation/screenshots/sql_analysis_example.png`
+
+*Figure 7: Example of a SQL business analysis query and its resulting output.*
+
+The SQL scripts and detailed analytical findings are available in [`database/sql`](../database/sql/) and [SQL Analysis Documentation](analysis/sql_analysis.md).
+
+---
+
+## 9. Power BI Development
+
+Microsoft Power BI was used to develop an interactive dashboard for presenting the results of the SQL-based analysis.
+
+The report was organised into five pages, each addressing a different aspect of the bakery's performance.
+
+### 9.1 Management Overview
+
+This page provides a summary of key business performance indicators, allowing management to view the overall performance of the bakery.
+
+**Screenshot 8 — Management Overview**
+
+Insert `management_overview.png` here.
+
+![Management Overview](../powerbi/screenshots/management_overview.png)
+
+*Figure 8: Management Overview dashboard page.*
+
+### 9.2 Sales and Product Performance
+
+This page examines order activity, revenue and product sales to provide insight into sales performance and product demand.
+
+**Screenshot 9 — Sales and Product Performance**
+
+Insert `sales_product_performance.png` here.
+
+![Sales and Product Performance](../powerbi/screenshots/sales_product_performance.png)
+
+*Figure 9: Sales and Product Performance dashboard page.*
+
+### 9.3 Financial Performance
+
+This page presents financial metrics and relevant cost information to support the examination of the bakery's financial performance.
+
+**Screenshot 10 — Financial Performance**
+
+Insert `financial_performance.png` here.
+
+![Financial Performance](../powerbi/screenshots/financial_performance.png)
+
+*Figure 10: Financial Performance dashboard page.*
+
+### 9.4 Inventory and Procurement
+
+This page examines ingredient usage, purchasing activity and procurement expenditure.
+
+**Screenshot 11 — Inventory and Procurement**
+
+Insert `inventory_procurement.png` here.
+
+![Inventory and Procurement](../powerbi/screenshots/inventory_procurement.png)
+
+*Figure 11: Inventory and Procurement dashboard page.*
+
+### 9.5 Production and Operations
+
+This page presents production activity, output and waste performance across the bakery's production operations.
+
+**Screenshot 12 — Production and Operations**
+
+Insert `production_operations.png` here.
+
+![Production and Operations](../powerbi/screenshots/production_operations.png)
+
+*Figure 12: Production and Operations dashboard page.*
+
+The complete Power BI report is available as [`bakery_management_dashboard.pbix`](../powerbi/bakery_management_dashboard.pbix).
+
+---
+
+## 10. Key Findings and Project Limitations
+
+The analysis produced findings across sales, product performance, procurement and production.
+
+Some of the key results include:
+
+| Metric | Result |
+|---|---:|
+| Completed orders | 4,055 |
+| Completed order value | ₦20,259,700 |
+| Units sold | 6,036 |
+| Average order value | ₦4,996.22 |
+| Number of products analysed | 14 |
+| Highest-selling product by units | Classic Banana Bread — 531 units |
+| Highest procurement expenditure | Butter — ₦3,069,391.36 |
+| Production runs | 5,372 |
+| Recorded production waste | 100 units |
+| Overall production waste rate | 1.63% |
+
+These findings provide insight into the bakery's sales activity, product demand, procurement expenditure and production performance.
+
+### 10.1 Project Limitations
+
+The project has several limitations that should be considered when interpreting the results:
+
+- All datasets are synthetic and do not represent actual bakery transactions.
+- The analysis covers a defined six-month reporting period.
+- No customer table was included in the database design.
+- Minimum stock thresholds were not defined, limiting the ability to classify inventory as low or critically low.
+- Aggregate production output and sales quantities cannot establish exact stock reconciliation.
+- Available cost records do not account for every possible business cost, such as labour, packaging and overheads. Estimated profit measures should therefore be interpreted cautiously.
+- The available order timestamps do not support a complete fulfilment-duration analysis.
+- Completed order value should not automatically be interpreted as cash received, since order value and payment records represent different measures.
+
+These limitations provide opportunities for further development, including more detailed cost tracking, stock threshold management and additional operational reporting.
+
+---
+
+## 11. Conclusion
+
+The project demonstrates an end-to-end approach to developing a database-driven business intelligence solution for a hypothetical bakery.
+
+It combines relational database design and implementation, Python-based data integration, SQL validation and business analysis, and interactive Power BI reporting.
+
+The resulting solution provides a structured foundation for managing operational records and examining business performance while demonstrating how different data tools can work together within a practical data analytics workflow.
+
+---
+
+## 12. Project Repository Structure
+
+The project files are organised into the following directories:
+
+```text
+bakery-management-analysis/
+│
+├── README.md
+│
+├── database/
+│   ├── schema/
+│   │   ├── 01_database_schema.sql
+│   │   └── 02_feature_engineering.sql
+│   │
+│   ├── sql/
+│   │   ├── sales_and_revenue_performance.sql
+│   │   ├── product_performance_and_profitability.sql
+│   │   ├── inventory_and_procurement_analysis.sql
+│   │   └── production_and_fulfilment_efficiency.sql
+│   │
+│   └── validation/
+│       ├── data_validation.sql
+│       └── database_tests.sql
+│
+├── python/
+│   ├── data_loading/
+│   │   ├── initial_load.py
+│   │   └── incremental_load.py
+│   │
+│   ├── utilities/
+│   │   ├── test_connection.py
+│   │   ├── inspect_database.py
+│   │   └── check_csv_columns.py
+│   │
+│   └── requirements.txt
+│
+├── data/
+│   ├── README.md
+│   └── dataset/
+│       └── [17 CSV datasets]
+│
+├── powerbi/
+│   ├── bakery_management_dashboard.pbix
+│   └── screenshots/
+│       ├── management_overview.png
+│       ├── sales_product_performance.png
+│       ├── financial_performance.png
+│       ├── inventory_procurement.png
+│       └── production_operations.png
+│
+└── documentation/
+    ├── project_methodology.md
+    │
+    ├── screenshots/
+    │   ├── database_structure.png
+    │   ├── dataset_preview.png
+    │   ├── initial_data_loading.png
+    │   ├── incremental_data_loading.png
+    │   ├── validation_results.png
+    │   └── sql_analysis_example.png
+    │
+    ├── data_model/
+    │   ├── entity_relationship_diagram.png
+    │   └── database_design.md
+    │
+    └── analysis/
+        └── sql_analysis.md
+```
+
